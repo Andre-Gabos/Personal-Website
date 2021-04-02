@@ -1,20 +1,19 @@
 import React from "react";
 import Front from "../Components/Front";
-import Header from "../Components/Header";
 import Profile from "../Components/Profile";
-import ContactMe from "../Components/ContactMe";
-import Footer from "../Components/Footer";
+import Cta from "../Components/Cta";
+import Layout from "../Components/Layout";
 
-function NewHome() {
+function Home() {
   return (
     <div>
-      <Header />
+    <Layout>
       <Front />
       <Profile />
-      <ContactMe />
-      <Footer />
+      <Cta />
+    </Layout>
     </div>
   )
 }
 
-export default NewHome;
+export default Home;
