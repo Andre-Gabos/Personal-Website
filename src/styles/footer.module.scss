@@ -1,0 +1,26 @@
+* {
+  footer {
+    margin-top: 150px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.9);
+    line-height: 2;
+
+    a {
+      margin: 0 20px 0;
+      text-decoration: none;
+      color: #00C2CB;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+    }
+  
+    a:hover {
+      color: #eaf6f6;
+    }
+  }
+
+  .copiright {
+    color: #FFFFFF;
+    font-size: 0.75rem;
+    margin: 8px 0 0;
+  }
+}

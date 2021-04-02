@@ -1,0 +1,36 @@
+* {
+  header {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    background: rgba(0, 0, 0, 0.85);
+    padding-top: 5px 0 5px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    overflow: hidden;
+    z-index: 5;
+  }
+
+  .logo {
+    color: #00C2CB;
+    float: left;
+    display: block;
+    position: relative;
+    left: 50px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .option {
+    color: #00C2CB;
+    font-size: 0.9rem; 
+    float: right;
+    display: block;
+    position: relative;
+    right: 50px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+}

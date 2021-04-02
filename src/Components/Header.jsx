@@ -1,22 +1,22 @@
 import React from "react";
 import { Link } from "gatsby";
-import "../styles/Header.styles.scss";
+import * as headerStyles from "../styles/header.module.scss";
 
 function Header() {
   return (
-    <div className="header">
-      <Link className="logo-container" to="/">
-        An.G
+    <header>
+      <Link className={headerStyles.logo} to="/">
+        André Gabos
       </Link>
-      <div className="options">
-        <Link className="option" to="/about">
-          ABOUT
+
+      <Link className={headerStyles.option} to="/about">
+        ABOUT
         </Link>
-        <Link className="option" to="/contact">
-          CONTACT
+      <Link className={headerStyles.option} to="/contact">
+        CONTACT
         </Link>
-      </div>
-    </div>
+
+    </header>
   )
 }
 
