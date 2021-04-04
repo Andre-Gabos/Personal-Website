@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "@fontsource/caveat": "^4.2.2",
+    "@fontsource/dancing-script": "^4.2.2",
     "@fontsource/merriweather": "^4.2.2",
     "@fontsource/montserrat": "^4.2.2",
     "gatsby": "^3.1.2",

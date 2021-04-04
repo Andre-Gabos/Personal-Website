@@ -5,10 +5,10 @@ import * as profStyles from "../styles/profile.module.scss";
 function Profile() {
   return (
     <div className={profStyles.profile}>
-      <StaticImage className={profStyles.image} src="../images/AndreCProfileCrop_200x200.jpg" alt="profile-pic" />
+      <StaticImage src="../images/AndreCProfileCrop_200x200.jpg" alt="profile-pic" />
       <h2>Hello.</h2>
-      <p class="prof-text">I've been working as a clinical psychologist for two years, treating people of all ages through behavior analysis.
-            I am also a web developer with experience in HTML5, CSS3 and JavaScript.</p>
+      <p class="prof-text">I'm a Front-end Web Developer, graduated Psychologist and behavioral analyst, and my goal is to build 
+      relevant software, which has the potential to contribute to the well-being and practicality of people's lives</p>
     </div>
   )
 }
