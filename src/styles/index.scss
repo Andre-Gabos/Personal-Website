@@ -4,6 +4,7 @@ body {
   color: #40514E;
   text-align: center;
   font-family: 'Merriweather', serif;
+
 }
 
 h1 {
@@ -36,4 +37,11 @@ hr {
   border-top-style: dotted;
   border-top-width: 6px;
   width: 5%;
+}
+
+.about, .contact {
+  width: 60%;
+  text-align: center;
+  margin: auto;
+  line-height: 2;
 }
