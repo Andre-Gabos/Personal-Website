@@ -12,6 +12,9 @@ function Header() {
       <Link className={headerStyles.option} to="/about">
         ABOUT
         </Link>
+      <Link className={headerStyles.option} to="/projects">
+        PROJECTS
+        </Link>
       <Link className={headerStyles.option} to="/contact">
         CONTACT
         </Link>
