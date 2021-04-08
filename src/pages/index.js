@@ -15,21 +15,23 @@ function Home() {
         <hr />
         <div>
           <h2>Projects</h2>
-          {projectInfo.map(({ id, img, title, description, ghlink, wplink }) => {
-            return (
-              <div>
-              <Project
-                key={id}
-                img={img}
-                title={title}
-                description={description}
-                ghlink={ghlink}
-                wplink={wplink}
-              />
-              <hr />
-              </div>
-            )
-          })}
+          {projectInfo
+            .filter((item, index) => index < 2)
+            .map(({ id, img, title, description, ghlink, wplink }) => {
+              return (
+                <div>
+                  <Project
+                    key={id}
+                    img={img}
+                    title={title}
+                    description={description}
+                    ghlink={ghlink}
+                    wplink={wplink}
+                  />
+                  <hr />
+                </div>
+              )
+            })}
         </div>
         <Cta />
       </Layout>
