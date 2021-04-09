@@ -8,16 +8,16 @@ function Header() {
       <Link className={headerStyles.logo} to="/">
         André Gabos
       </Link>
-
-      <Link className={headerStyles.option} to="/about">
-        ABOUT
+      <Link className={headerStyles.option} to="/contact">
+        CONTACT
         </Link>
       <Link className={headerStyles.option} to="/projects">
         PROJECTS
         </Link>
-      <Link className={headerStyles.option} to="/contact">
-        CONTACT
+      <Link className={headerStyles.option} to="/about">
+        ABOUT
         </Link>
+      
 
     </header>
   )
