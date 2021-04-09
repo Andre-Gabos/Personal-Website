@@ -39,9 +39,13 @@ hr {
   width: 5%;
 }
 
-.about, .contact {
+.about, .contact, .projects-page {
   width: 60%;
   text-align: center;
   margin: auto;
   line-height: 2;
+}
+
+.prLink {
+  margin: 0;
 }

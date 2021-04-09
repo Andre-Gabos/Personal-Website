@@ -6,8 +6,8 @@ function Project(props) {
     <div className={projectStyles.project}>
       <h3 className="project-title">{props.title}</h3>
       <img src={props.img} className="screenshot"></img>
-      <a href={props.ghlink}>GitHub</a>
-      <a href={props.wplink}>Webpage</a>
+      <a href={props.ghlink} target="_blank">GitHub</a>
+      <a href={props.wplink} target="_blank">Webpage</a>
       <p className="project-description">{props.description}</p>
     </div>
   )
