@@ -18,7 +18,7 @@ function Projects() {
         guarantee the modularity of the components. I intend to keep the site simple and concise, but I have plans to take
         advantage of all the benefits that Gatsby brings and to update, in general, the design and structure of the site as
         needed. If you are interested in accessing the source code, it is available on my GitHub profile, 
-        <a className="prLink" href="https://github.com/Andre-Gabos/Personal-Website" target="_blank"> here</a>.</p>
+        <a className="prLink" href="https://github.com/Andre-Gabos/Personal-Website" target="_blank" rel="noreferrer"> here</a>.</p>
       </div>
       <hr />
       {projectInfo
